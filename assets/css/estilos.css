@@ -1,9 +1,11 @@
 body {
   font-family: "Raleway", sans-serif;
+  background-color: #dadaed;
 }
-
 /* Hero Section */
-
+.navbar{
+  background-color: #1F1F23;
+}
 #Hero-Section {
   background-image: url("https://cdn.midjourney.com/77ec1e23-205f-479c-b0f2-1eba12a00124/0_0.png");
   background-repeat: no-repeat;
@@ -12,7 +14,9 @@ body {
 }
 
 /* Mis trabajos */
-
+#Mis-trabajos{
+  background-color: #1F1F23;
+}
 #Mis-trabajos .image-top {
   height: 250px;
   background-repeat: no-repeat;
@@ -24,7 +28,7 @@ body {
 
 #Contacto form label {
   font-weight: 700;
-  color: #373a3c;
+  color: #1F1F23;
 }
 
 @media (max-width: 768px) {
@@ -37,4 +41,15 @@ body {
   }
 
 }
-
+footer{
+  background-color: #1F1F23;
+}
+.btn{
+  color: aliceblue;
+  background-color: #1F1F23;
+  border-color: #1F1F23;
+}
+.btn:hover{
+  background-color: rgb(62, 120, 172);
+  border: #2d2da8;
+}
